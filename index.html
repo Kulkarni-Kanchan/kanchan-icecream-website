@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- <meta> tags give information about your website, but they are not visible on the page.-->
+    <!-- Tells the browser which character encoding to use.
+         UTF-8 supports almost all languages and symbols.-->
+    <meta charset="UTF-8" />
+    <!--viewport → makes site responsive on mobile.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--These are for SEO (Search Engine Optimization) used for hosting website-->
+    <meta
+      name="description"
+      content="Kanchan Ice-Cream Parlour offers fresh, creamy and delicious ice creams at affordable prices."
+    />
+    <meta
+      name="keywords"
+      content="Ice Cream, Kulfi, Dairy Products, Lassi, Curd, Ice Cream Shop"
+    />
+    <meta name="author" content="Kanchan Kulkarni" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kanchan Ice-Cream Parlour</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Kanchan <span>Ice-Cream Parlour</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn"><i class="ri-shopping-cart-line"></i></button>
+        <button class="btn"><i class="ri-notification-3-fill"></i></button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>WELCOME TO OUR <span>KANCHAN ICE CREAM</span> WORLD</h1>
+        <p class="section__description">
+          Indulge in a delightful journey of flavors! Discover creamy, delicious
+          ice creams crafted to bring joy to every scoop. Welcome to your sweet
+          escape!
+        </p>
+        <div class="header__btn">
+          <button class="btn buy-btn">Buy Now</button>
+        </div>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-phone-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img
+          src="assets/about us.jpg"
+          alt="About Kanchan Ice Cream"
+          loading="lazy"
+        />
+      </div>
+
+      <div class="about__content">
+        <h2 class="section__header">About Us</h2>
+        <p class="section__description">
+          At Kanchan Ice-Cream Parlour, we believe every scoop should bring
+          happiness. Our journey started with a simple dream — to serve fresh,
+          creamy, and affordable ice creams.
+        </p>
+
+        <p class="section__description">
+          From traditional Matka Kulfi to rich chocolate delights, we focus on
+          quality and authentic taste. We proudly serve our customers with
+          freshness, hygiene, and a smile every day.
+        </p>
+
+        <div class="about__stats">
+          <div class="about__stat">
+            <h3>5+</h3>
+            <p>Years of Experience</p>
+          </div>
+          <div class="about__stat">
+            <h3>1000+</h3>
+            <p>Happy Customers</p>
+          </div>
+          <div class="about__stat">
+            <h3>20+</h3>
+            <p>Delicious Flavors</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container popular__container" id="menu">
+      <h2 class="section__header">Popular Ice-Cream</h2>
+      <div class="popular__grid">
+        <div class="popular__card">
+          <img src="assets/matka kulfi.jpg" alt="popular" />
+          <div class="popular__card__content">
+            <h4>Matka Kulfi</h4>
+            <h3>40 Rs</h3>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img src="assets/red velvet.jpg" alt="popular" />
+          <div class="popular__card__content">
+            <h4>Red Velvet Cone</h4>
+            <h3>40 Rs</h3>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img src="assets/dark chocolate with nuts cone.jpg" alt="popular" />
+          <div class="popular__card__content">
+            <h4>Dark Chocolate with Nuts Cone</h4>
+            <h3>50 Rs</h3>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img src="assets/blueberry.jpg" alt="Blueberry Cone" />
+          <div class="popular__card__content">
+            <h4>Blueberry Cone</h4>
+            <h3>45 Rs</h3>
+          </div>
+        </div>
+
+        <div class="popular__card">
+          <img src="assets/chocofudge.jpg" alt="Choco Fudge Cone" />
+          <div class="popular__card__content">
+            <h4>Choco Fudge Cone</h4>
+            <h3>40 Rs</h3>
+          </div>
+        </div>
+
+        <div class="popular__card">
+          <img src="assets/pista cone.jpg" alt="Pista Cone" />
+          <div class="popular__card__content">
+            <h4>Pista Cone</h4>
+            <h3>35 Rs</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container discover__container" id="categories">
+      <h2 class="section__header">
+        Most Selling Dairy Products from Dairy Naturals
+      </h2>
+      <p class="section__description">
+        Discover our crowd favorites! These ice creams are loved by everyone and
+        have become the top picks for their irresistible flavors and creamy
+        textures.
+      </p>
+      <div class="discover__grid">
+        <div class="discover__card">
+          <img src="assets/Lassi.jpg" alt="discover" />
+          <div class="discover__card__content">
+            <h4>Fresh Natural's Lassi</h4>
+            <p class="section__description">
+              Dairy Natural’s Lassi is a refreshing and creamy traditional drink
+              made from fresh, high-quality curd. It offers a perfectly balanced
+              taste that is smooth, rich, and satisfying in every sip. A cool
+              and delicious way to stay refreshed anytime of the day.
+            </p>
+            <h3>25 Rs</h3>
+            <div class="discover__card__btn">
+              <button class="btn buy-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="discover__card">
+          <img src="assets/curd.jpg" alt="discover" />
+          <div class="discover__card__content">
+            <h4>Natural's Fresh Curd</h4>
+            <p class="section__description">
+              Dairy Natural’s Curd is thick, fresh, and naturally creamy, made
+              from high-quality milk. It has a smooth texture and a rich taste
+              that enhances every meal. Perfect for daily consumption, it adds
+              both nutrition and freshness to your plate.
+            </p>
+            <h3>40 Rs</h3>
+            <div class="discover__card__btn">
+              <button class="btn buy-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="discover__card">
+          <img src="assets/matka kulfi 2.jpg" alt="discover" />
+          <div class="discover__card__content">
+            <h4>Natural's Matka Kulfi</h4>
+            <p class="section__description">
+              Matka Kulfi is a rich and creamy traditional Indian dessert,
+              slow-churned for an authentic taste. Served in an earthen pot, it
+              delivers a thick texture and intense flavor in every bite. A
+              timeless sweet treat that brings pure desi delight.
+            </p>
+            <h3>50 Rs</h3>
+            <div class="discover__card__btn">
+              <button class="btn buy-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="banner__image">
+        <img src="assets/image.png" alt="banner img" />
+      </div>
+      <div class="banner__content">
+        <h2 class="section__header">
+          Get Yummy Ice-Cream at a Reasonable Price
+        </h2>
+        <p class="section__description">
+          Treat yourself to delightful ice creams without breaking the bank!
+          Enjoy premium quality and mouthwatering flavors at prices that make
+          every scoop worth it.
+        </p>
+        <div class="banner__flex">
+          <div class="banner__card">
+            <img src="assets/banner-1.png" alt="banner" />
+            <h4>Fresh & Natural</h4>
+          </div>
+          <div class="banner__card">
+            <img src="assets/banner-2.png" alt="banner" />
+            <h4>Quick Packaging</h4>
+          </div>
+          <div class="banner__card">
+            <img src="assets/banner-3.png" alt="banner" />
+            <h4>Fast Delivery</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container subscribe__container" id="contact">
+      <div class="subscribe__content">
+        <h2 class="section__header">Your Identity</h2>
+        <p class="section__description">
+          Tell us your name so that we can add you to our Ice-Cream Family :)
+        </p>
+        <form id="subscribeForm">
+          <input type="text" id="username" placeholder="Type Your Name" />
+          <button type="submit" class="btn">Add</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <a href="#" class="logo">Kanchan <span>Ice-Cream Parlour</span></a>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-phone-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
